@@ -1,0 +1,13 @@
+####################
+# Machine Learning #
+####################
+numpy
+pycodestyle
+matplotlib
+scipy
+jupyter
+pandas
+seaborn
+pandoc
+nbconvert
+pytest

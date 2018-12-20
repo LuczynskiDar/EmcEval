@@ -1,0 +1,91 @@
+Start: 2018-10-19, 12:16:27
+---------------------------------------------------------
+CWS500N2 @ GPIB0::10
+
+ 94849 ms:-> *rst
+   546 ms:-> gen:att 635
+    31 ms:-> on
+   718 ms:-> gen:frq 150000
+    47 ms:-> on
+   764 ms:-> meas:channel 1
+    47 ms:-> meas:frq 150000
+    62 ms:-> meas:trig
+   172 ms:  <- RM,521;
+     0 ms:-> gen:att 375
+   172 ms:-> meas:trig
+   172 ms:  <- RM,767;
+     0 ms:-> gen:att 270
+   156 ms:-> meas:trig
+   171 ms:  <- RM,864;
+     0 ms:-> gen:att 230
+   172 ms:-> meas:trig
+   171 ms:  <- RM,908;
+    16 ms:-> gen:att 215
+   156 ms:-> meas:trig
+   171 ms:  <- RM,924;
+    16 ms:-> gen:att 205
+   172 ms:-> meas:trig
+   171 ms:  <- RM,935;
+     0 ms:-> gen:mod:prm:am 80
+    93 ms:-> gen:mod:frq:am 1000
+    47 ms:-> gen:time 20
+   156 ms:-> start
+  2200 ms:  <- RR,00;
+    15 ms:-> gen:att 265
+   140 ms:-> gen:mod:prm:am 0
+   156 ms:-> gen:frq 152000
+    63 ms:-> on
+   780 ms:-> meas:frq 152000
+    47 ms:-> meas:trig
+   171 ms:  <- RM,871;
+    16 ms:-> gen:att 235
+   156 ms:-> meas:trig
+   188 ms:  <- RM,903;
+    15 ms:-> gen:att 215
+   156 ms:-> meas:trig
+   187 ms:  <- RM,924;
+     0 ms:-> gen:att 205
+   172 ms:-> meas:trig
+   187 ms:  <- RM,936;
+    16 ms:-> gen:mod:prm:am 80
+    93 ms:-> start
+  2200 ms:  <- RR,00;
+    16 ms:-> gen:att 265
+   156 ms:-> gen:mod:prm:am 0
+   171 ms:-> gen:frq 153000
+    47 ms:-> on
+   780 ms:-> meas:frq 153000
+    62 ms:-> meas:trig
+   172 ms:  <- RM,871;
+    15 ms:-> gen:att 235
+   156 ms:-> meas:trig
+   188 ms:  <- RM,903;
+     0 ms:-> gen:att 215
+   171 ms:-> meas:trig
+   172 ms:  <- RM,924;
+    15 ms:-> gen:att 205
+   156 ms:-> meas:trig
+   188 ms:  <- RM,936;
+     0 ms:-> gen:mod:prm:am 80
+    94 ms:-> start
+  2199 ms:  <- RR,00;
+    32 ms:-> gen:att 265
+   156 ms:-> gen:mod:prm:am 0
+   156 ms:-> gen:frq 155000
+    62 ms:-> on
+   780 ms:-> meas:frq 155000
+    47 ms:-> meas:trig
+   187 ms:  <- RM,871;
+     0 ms:-> gen:att 235
+   156 ms:-> meas:trig
+   171 ms:  <- RM,903;
+    16 ms:-> gen:att 215
+   156 ms:-> meas:trig
+   171 ms:  <- RM,924;
+    16 ms:-> gen:att 205
+   172 ms:-> meas:trig
+   187 ms:  <- RM,936;
+    15 ms:-> gen:mod:prm:am 80
+    94 ms:-> start
+    78 ms:-> stop---------------------------------------------------------
+End: 2018-10-19, 12:16:55
