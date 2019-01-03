@@ -27,16 +27,22 @@ There are 3 classes:
 class Commons:
     def __init__(self, filename: str):
 ```
-* Class ActToolLog, inherits from class commons, and contains unique properties to read UUT log file.
-
+* Class ActToolLog, inherits from class Commons, and contains unique properties to read UUT log file.
 ``` Python
 class ActToolLog(Commons):
     def __init__(self, filename: str):
         super(ActToolLog, self).__init__(filename)
 ```
-* Class GeneratorLog
+* Class GeneratorLog, inherits from class Commons, and contains unique properties to read Generator log file.
 ``` Python
 class GeneratorLog(Commons):
     def __init__(self, filename: str):
         super(GeneratorLog, self).__init__(filename)
+```
+#### FrequencyFinder
+Contains FrequencyFinder class, used to find a generated frequency, time span in certain moment of time.
+Frequency Finder instance is used in the Jupyter notebook, finds and adds found frequency generator's dataframe.
+``` Python
+class FrequencyFinder:
+    def __init__(self, generator: dict):
 ```
