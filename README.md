@@ -8,7 +8,22 @@ Jupyter using Pandas and visualised using Seaborn and Matplotlib.
 
 ### Scripts and Data
 
+* Class Commons
 ``` Python
 class Commons:
     def __init__(self, filename: str):
+```
+
+* Class ActToolLog
+
+``` Python
+class ActToolLog(Commons):
+    def __init__(self, filename: str):
+```
+
+* Class GeneratorLog
+``` Python
+class GeneratorLog(Commons):
+    def __init__(self, filename: str):
+        super(GeneratorLog, self).__init__(filename)
 ```
