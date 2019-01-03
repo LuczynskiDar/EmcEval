@@ -13,9 +13,11 @@ Jupyter using Pandas and visualised using Seaborn and Matplotlib.
 Source data are located in /Data folder. 
 
 #### Generator log file
-
+EMC test generator log, text file.
 * Monitor.txt
-
+#### UUT log file
+Data logged by a service tool connected to the tested device.
+* Test_results.txt
 
 * Class Commons
 ``` Python
