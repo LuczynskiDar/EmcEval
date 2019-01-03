@@ -22,15 +22,12 @@ There are 2 scripts DataReader, FrequencyFinder
 
 #### DataReader
 There are 3 classes:
- - Common, containing common properties and methos
-
-* Class Commons
+* Class Commons, contains common properties and methods.
 ``` Python
 class Commons:
     def __init__(self, filename: str):
 ```
-
-* Class ActToolLog
+* Class ActToolLog, inherits from class commons, and contains unique properties to read UUT log file.
 
 ``` Python
 class ActToolLog(Commons):
