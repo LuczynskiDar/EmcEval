@@ -5,3 +5,10 @@
 EMC Evaluation, a side project to support EMC data evaluation, written in Python 3. 
 Scripts were written using PyCharm IDE, and later on the parsed data were analysed in
 Jupyter using Pandas and visualised using Seaborn and Matplotlib.
+
+### Scripts and Data
+
+``` Python
+class Commons:
+    def __init__(self, filename: str):
+```
