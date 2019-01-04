@@ -7,7 +7,7 @@ Jupyter using Pandas and visualised using Seaborn and Matplotlib.
 
 ## Data, Sripts and Notebook
 
-### Data 
+## [Data](https://github.com/LuczynskiDar/EmcEval/tree/master/Data) 
 Source data are located in /Data folder. 
 
 #### Generator log file
@@ -39,7 +39,7 @@ class GeneratorLog(Commons):
     def __init__(self, filename: str):
         super(GeneratorLog, self).__init__(filename)
 ```
-#### [FrequencyFinder](https://github.com/LuczynskiDar/EmcEval/blob/master/FrequencyFinder.py)
+### [FrequencyFinder](https://github.com/LuczynskiDar/EmcEval/blob/master/FrequencyFinder.py)
 Contains FrequencyFinder class, used to find a generated frequency, time span in certain moment of time.
 Frequency Finder instance is used in the Jupyter notebook, finds and adds found frequency generator's dataframe.
 ``` Python
