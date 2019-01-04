@@ -39,7 +39,7 @@ class GeneratorLog(Commons):
     def __init__(self, filename: str):
         super(GeneratorLog, self).__init__(filename)
 ```
-#### FrequencyFinder
+#### [FrequencyFinder](https://github.com/LuczynskiDar/EmcEval/blob/master/FrequencyFinder.py)
 Contains FrequencyFinder class, used to find a generated frequency, time span in certain moment of time.
 Frequency Finder instance is used in the Jupyter notebook, finds and adds found frequency generator's dataframe.
 ``` Python
