@@ -20,7 +20,7 @@ Data logged by a service tool connected to the tested device.
 ### Scripts
 There are 2 scripts DataReader, FrequencyFinder
 
-#### DataReader
+#### [DataReader]
 There are 3 classes:
 * Class Commons, contains common properties and methods.
 ``` Python
