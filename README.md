@@ -46,3 +46,7 @@ Frequency Finder instance is used in the Jupyter notebook, finds and adds found 
 class FrequencyFinder:
     def __init__(self, generator: dict):
 ```
+### Notebook
+EmcEval notebook was created to parse both log files into Pandas data frame. Analyse the data using
+helper functions for graphical representations, and other such as shifting column in the data frame
+or adding test frequency markers, checking if the data are in desired specification.
