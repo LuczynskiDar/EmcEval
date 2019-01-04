@@ -7,15 +7,15 @@ Jupyter using Pandas and visualised using Seaborn and Matplotlib.
 
 ## Data, Sripts and Notebook
 
-## [Data](https://github.com/LuczynskiDar/EmcEval/tree/master/Data) 
+### [Data](https://github.com/LuczynskiDar/EmcEval/tree/master/Data) 
 Source data are located in /Data folder. 
 
 #### Generator log file
 EMC test generator log, text file.
-* Monitor.txt
+* [Monitor.txt](https://github.com/LuczynskiDar/EmcEval/blob/master/Data/Monitor.txt)
 #### UUT log file
 Data logged by a service tool connected to the tested device.
-* Test_results.txt
+* [Test_results.txt](https://github.com/LuczynskiDar/EmcEval/blob/master/Data/Test_results.txt)
 
 ### Scripts
 There are 2 scripts DataReader, FrequencyFinder
